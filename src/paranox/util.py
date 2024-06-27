@@ -51,6 +51,10 @@ def axis_complement(
 
 # TODO: determine if we can replace this with one of the canonicalise axis
 # functions from jax
+# We can use this from numpy:
+# https://numpy.org/devdocs/reference/generated/ ...
+# numpy.lib.array_utils.normalize_axis_tuple.html
+# However, the way to import this varies across numpy versions.
 def standard_axis_number(axis: int, ndim: int) -> int:
     """
     Convert an axis number to a standard axis number.

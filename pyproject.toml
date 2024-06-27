@@ -24,6 +24,7 @@ requires-python = ">=3.10"
 dependencies = [
     "jax >= 0.3.16",
     "equinox >= 0.7.1",
+    "gramform",
     "numpyro",
     "numpy >= 1.22.4",
 ]
